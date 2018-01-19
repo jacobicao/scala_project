@@ -3,4 +3,6 @@ object HelloWorld {
     println("Hello, world!")
 
   }
+  val x = 1+1
+  println('x = '+x)
 }
