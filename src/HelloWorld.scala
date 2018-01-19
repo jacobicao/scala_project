@@ -4,5 +4,5 @@ object HelloWorld {
 
   }
   val x = 1+1
-  println('x = '+x)
+  println("x = "+x)
 }
