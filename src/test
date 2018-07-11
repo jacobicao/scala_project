@@ -1,0 +1,16 @@
+import scala.annotation.tailrec
+object add{
+  def fac(n:Int):Int = {
+    @tailrec
+    def iner(acc:Int,n:Int):Int = {
+      if (n<=1) acc else iner(acc+n,n-1)
+    }
+    iner(1,n)
+  }
+  def main(args: Array[String]) {
+    println("Hello, world!")
+    val a:Int = 10000
+    val b:Int = 2
+    println("a.sum = " + fac(a))
+  }
+}
